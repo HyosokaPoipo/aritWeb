@@ -1,0 +1,21 @@
+﻿body {
+}
+.button {
+    margin-top:14px;
+    position: absolute;
+  
+}
+#label {
+    color:#ff0000;
+
+}
+#Label1 {
+    color:#00FF00;
+    margin-left:45px;
+    display:block;
+}
+
+#DropDownList1 {
+margin-left:15px;
+margin-right:15px;
+}
