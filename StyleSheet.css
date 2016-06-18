@@ -1,18 +1,17 @@
 ﻿body {
 }
-.button {
-    margin-top:14px;
-    position: absolute;
-    top: 57px;
-    
+.button {    
+    position: absolute;    
+    margin-top:27px;
 }
 #label {
     color:#ff0000;
+    margin-bottom:13px;
 
 }
 #Label1 {
     color:#00FF00;
-    margin-left:45px;
+    
     display:block;
 }
 

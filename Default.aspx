@@ -30,7 +30,7 @@
 
     <div style="text-align: center;">
     
-        <asp:Button ID="Button1" runat="server" CssClass="button" Text="Calculate" />
+        <asp:Button ID="calculate_default" runat="server" CssClass="button" Text="Calculate" />
     
     </div>
     </form>
