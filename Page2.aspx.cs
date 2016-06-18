@@ -15,6 +15,12 @@ public partial class Page2 : System.Web.UI.Page
     {
         double int1 = 0, int2 = 0;
 
+        if (TextBox1Page2.Text == "" && TextBox2Page2.Text == "")
+        {
+            Page.ClientScript.RegisterStartupScript(this.GetType(), "Script", "<script>alert(\'Please input a number to each Textbox\');</script>");
+            goto here;
+        }
+
         try
         {
             int1 = Convert.ToDouble(TextBox1Page2.Text);
