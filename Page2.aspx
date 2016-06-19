@@ -16,18 +16,18 @@
         <div id="test" style="text-align:center; ">
 
             
-        <asp:Label ID="Label1resultPage2" runat="server" Text="ResultLabel" Font-Size="Large"></asp:Label>  <br />   <br />       
-        <asp:TextBox ID="TextBox1Page2" runat="server"></asp:TextBox>
+        <asp:Label ID="Label1resultPage2" runat="server" Text="ResultLabel" Font-Size="X-Large"></asp:Label>  <br />   <br />       
+        <asp:TextBox ID="TextBox1Page2" runat="server" Font-Size="X-Large"></asp:TextBox>
 
-            <asp:DropDownList ID="DropDownListPage2" runat="server">
+            <asp:DropDownList ID="DropDownListPage2" runat="server" Font-Size="X-Large">
                 <asp:ListItem>+</asp:ListItem>
                 <asp:ListItem>-</asp:ListItem>
                 <asp:ListItem>x</asp:ListItem>
                 <asp:ListItem>:</asp:ListItem>
-                <asp:ListItem></asp:ListItem>
+                
             </asp:DropDownList>
-            <asp:TextBox ID="TextBox2Page2" runat="server"></asp:TextBox><br />
-            <asp:Button ID="Button1" runat="server" Text="Calculate" OnClick="Button1_Click" />
+            <asp:TextBox ID="TextBox2Page2" runat="server" Font-Size="X-Large"></asp:TextBox><br />
+            <asp:Button ID="Button1" runat="server" Text="Calculate" OnClick="Button1_Click" Font-Size="Large" />
 
         </div>
 
